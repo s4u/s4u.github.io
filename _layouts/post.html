@@ -1,0 +1,23 @@
+---
+layout: default
+---
+<div class="panel panel-default">
+    <div class="panel-body">
+        <div class="page-header">
+        <h1>{{ page.title }}<br/><small>{{ page.date | date_to_long_string }}</small></h1>
+        </div>
+        {{ content }}
+<hr/>
+        {% if page.tags %}<p>Tags:
+            {% for t in page.tags %}<a class="label label-default" href="{{site.baseurl}}{{site.tags_path}}#tag-{{t}}">{{t}}</a> {% endfor %}
+        </p>{% endif %}
+    <ul class="pager">
+        {% if page.previous %}
+        <li class="previous"><a href="{{page.previous.url}}"><span class="glyphicon glyphicon-circle-arrow-left"></span> Older</a></li>
+        {% endif %}
+        {% if page.next %}
+        <li class="next"><a href="{{page.next.url}}">Newer <span class="glyphicon glyphicon-circle-arrow-right"></span></a></li>
+        {% endif %}
+    </ul>
+    </div>
+</div>

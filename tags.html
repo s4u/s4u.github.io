@@ -1,0 +1,16 @@
+---
+title: Tags
+subtitle: Posts grouped by tags
+group: navl
+layout: page
+---
+{% for t in site.tags %}
+<div class="panel panel-default">
+    <div class="panel-heading" id="tag-{{ t[0] }}">{{ t[0] }} <span class="badge">{{ t[1].size }}</span></div>
+    <ul class="list-group">
+    {% for p in t[1] %}
+    <li class="list-group-item"><a href="{{ p.url }}">{{ p.title }}</a></li>
+    {% endfor %}
+    </ul>
+</div>
+{% endfor %}

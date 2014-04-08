@@ -1,0 +1,11 @@
+
+title: Simplify4U
+url: http://www.simplify4u.org
+
+permalink: /:year/:month/:title.html
+
+tags_path: tags.html
+paginate: 5
+
+markdown: kramdown
+excerpt_separator: "<!-- -->"
