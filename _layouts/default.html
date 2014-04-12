@@ -22,15 +22,7 @@
     <!-- custom style -->
     <link rel="stylesheet" href="{{ site.baseurl }}css/main.css">
     <link rel="stylesheet" href="{{ site.baseurl }}css/syntax.css">
-
-    <script>
-          (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-          (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-          m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-          })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-          ga('create', 'UA-46704610-1', 'auto');
-          ga('send', 'pageview');
-    </script>
+    <script src="{{ site.baseurl }}js/g01.js"></script>
 </head>
 
 <body>
@@ -76,23 +68,9 @@
         </small></div>
     </div>
 </div>
-
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-
 <!-- Latest compiled and minified JavaScript -->
 <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
-
-<script>
-$("a").on('click',function(e){
-    if (e.currentTarget.host != window.location.host) {
-        var url = $(this).attr("href");
-        ga('send', 'event', 'link', 'click', url);
-        if (!(e.metaKey || e.ctrlKey)) {
-            e.preventDefault();
-            setTimeout('document.location = "' + url + '"', 100);
-        }
-    }
-});
-</script>
+<script src="{{ site.baseurl }}js/g02.js"></script>
 </body>
