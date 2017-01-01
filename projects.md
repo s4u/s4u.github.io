@@ -3,6 +3,7 @@ title: Projects
 subtitle: List of our projects
 layout: page
 group: navl
+permalink: /:path/:basename:output_ext
 ---
 
 ## JFatek - Java Fatek PLC client library

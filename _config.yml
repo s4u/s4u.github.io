@@ -1,8 +1,9 @@
 
 title: Simplify4U
 url: http://www.simplify4u.org
+baseurl: /
 
-permalink: /:year/:month/:title.html
+permalink: /:title.html
 
 tags_path: tags.html
 paginate: 5
