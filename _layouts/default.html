@@ -23,6 +23,29 @@
     <link rel="stylesheet" href="{{ site.baseurl }}css/main.css">
     <link rel="stylesheet" href="{{ site.baseurl }}css/syntax.css">
     <script src="{{ site.baseurl }}js/g01.js"></script>
+
+    <link rel="stylesheet" type="text/css"
+          href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.css"/>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.js"></script>
+    <script>
+window.addEventListener("load", function(){
+window.cookieconsent.initialise({
+  "palette": {
+    "popup":  { "background": "#080808", "text": "#ffffff" },
+    "button": { "background": "#dddddd", "text": "#000000" }
+  },
+  "theme": "classic",
+  "content": { "dismiss": "OK", "href": "http://cookiestatement.eu/" },
+  onStatusChange: function(status) {
+      if (this.hasConsented()) {
+        ga('send', 'event', 'cookieconsent', 'OK', window.location.pathname);
+      }
+  },
+  onPopupOpen: function() {
+    ga('send', 'event', 'cookieconsent', 'Show', window.location.pathname);
+  }
+})});
+    </script>
 </head>
 
 <body>

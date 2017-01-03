@@ -10,3 +10,5 @@ paginate: 5
 
 markdown: kramdown
 excerpt_separator: "<!-- -->"
+
+github: [metadata]
