@@ -4,6 +4,7 @@ subtitle: List of our projects
 layout: page
 group: navl
 permalink: /:path/:basename:output_ext
+sitemap: true
 ---
 
 ## JFatek - Java Fatek PLC client library
