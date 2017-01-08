@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Fatek PLC and OpenHAB
+description: Fatek PLC integration with computer, tablet and smartphone using OpenHAB
 tags: fatek plc openhab
 ---
 
@@ -9,7 +10,7 @@ and technologies into one platform.
 
 **Fatek PLC** is one kind of Programmable Logic Controller produced by FATEK Automation Corporation.
 
-Now you can easily connect your Fatek PLC with OpenHAB.
+You can easily integrated Fatek PLC with computer, tablet and smartphone using OpenHAB.
 <!-- -->
 
 Thanks to OpenHAB plugins it is possible to extend this to support Fatek PLC with native communication protocol.

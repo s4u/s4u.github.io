@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Website ready in a few evenings
+description: One of many easy way for preparing static website
 tags: jekyll github-pages bootstarp
 ---
 

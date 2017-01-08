@@ -1,6 +1,6 @@
 ---
 title: Projects
-subtitle: List of our projects
+description: list of our projects inter alia JFatek, pgpverify-maven-plugin 
 layout: page
 group: navl
 permalink: /:path/:basename:output_ext
