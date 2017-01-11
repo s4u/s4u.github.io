@@ -108,7 +108,7 @@ window.cookieconsent.initialise({
 
 <div class="container">
 {{ content }}
-<div class="fb-like" data-href="{{site.url}}{{page.url}}" data-layout="button_count" data-action="like" data-size="small" data-show-faces="true" data-share="true"></div>
+{% if page.description %}<div class="fb-like" data-href="{{site.url}}{{page.url}}" data-layout="button_count" data-action="like" data-size="small" data-show-faces="true" data-share="true"></div>{% endif %}
 </div>
 
 <div id="footer">

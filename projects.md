@@ -13,7 +13,7 @@ This project implements Fatek protocol to communicate with Fatek PLC (Programmab
 
 {:.dl-horizontal}
 Documentation
-: <http://www.simplify4u.org/jfatek>
+: <https://www.simplify4u.org/jfatek>
 
 Source
 : <https://github.com/s4u/jfatek>
@@ -26,7 +26,7 @@ This maven plugin generate sitemap.xml for project site.
 
 {:.dl-horizontal}
 Documentation
-: <http://www.simplify4u.org/sitemapxml-maven-plugin>
+: <https://www.simplify4u.org/sitemapxml-maven-plugin>
 
 Source
 : <https://github.com/s4u/sitemapxml-maven-plugin>
@@ -39,7 +39,7 @@ This maven plugin allow you to automatically verify PGP signature of all project
 
 {:.dl-horizontal}
 Documentation
-: <http://www.simplify4u.org/pgpverify-maven-plugin>
+: <https://www.simplify4u.org/pgpverify-maven-plugin>
 
 Source
 : <https://github.com/s4u/pgpverify-maven-plugin>
@@ -48,6 +48,8 @@ Source
 
 More projects on github: <https://github.com/s4u>
 
-All our projects are deployed to **The Central Repository**, under **com.github.s4u** groupId, so you can easily use them.\\
+All our projects are deployed to **The Central Repository**, under **org.simplify4u** groupId, so you can easily use them.\\
 Last deployed versions you can found here:
+[org.simplify4u](http://search.maven.org/#search|ga|1|org.simplify4u)
+or under old groupId
 [com.github.s4u](http://search.maven.org/#search|ga|1|com.github.s4u)
