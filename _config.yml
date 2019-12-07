@@ -13,6 +13,9 @@ excerpt_separator: "<!-- -->"
 
 github: [metadata]
 
+plugins:
+  - jekyll-paginate
+
 defaults:
   -
     scope:
