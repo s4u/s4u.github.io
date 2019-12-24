@@ -9,7 +9,7 @@ layout: default
         {{ content }}
 <hr/>
         {% if page.tags %}<p>Tags:
-            {% for t in page.tags %}<a class="label label-default" href="{{site.baseurl}}{{site.tags_path}}#tag-{{t}}">{{t}}</a> {% endfor %}
+            {% for t in page.tags %}<a class="label label-default" href="{{site.tags_path | relative_url }}#tag-{{t}}">{{t}}</a> {% endfor %}
         </p>{% endif %}
     <ul class="pager">
         {% if page.previous %}
