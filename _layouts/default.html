@@ -54,7 +54,7 @@ window.cookieconsent.initialise({
     "button": { "background": "#dddddd", "text": "#000000" }
   },
   "theme": "classic",
-  "content": { "dismiss": "OK", "href": "http://cookiestatement.eu/" },
+  "content": { "dismiss": "OK", "href": "{{site.url}}/privacy-policy.html" },
   onStatusChange: function(status) {
       if (this.hasConsented()) {
         ga('send', 'event', 'cookieconsent', 'OK', window.location.pathname);
@@ -116,11 +116,16 @@ window.cookieconsent.initialise({
 
 <div id="footer">
     <div class="container">
-        <div class="text-muted text-right"><small>
-            Powered by: <a href="http://getbootstrap.com/">Bootstrap</a>
-            and <a href="http://jekyllrb.com/">Jekyll</a>.
-            Hosted by: <a href="https://pages.github.com/">GitHub Pages</a>
-        </small></div>
+        <div class="row">
+            <div class="col-xs-12 col-md-6 text-muted text-left"><small>
+                <a href="{{site.url}}/privacy-policy.html">Privacy</a>
+            </small></div>
+            <div class="col-xs-12 col-md-6 text-muted text-right"><small>
+                Powered by: <a href="http://getbootstrap.com/">Bootstrap</a>
+                and <a href="http://jekyllrb.com/">Jekyll</a>.
+                Hosted by: <a href="https://pages.github.com/">GitHub Pages</a>
+            </small></div>
+        </div>
     </div>
 </div>
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
