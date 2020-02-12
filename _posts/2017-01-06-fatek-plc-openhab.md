@@ -3,6 +3,7 @@ layout: post
 title: Fatek PLC and OpenHAB
 description: Fatek PLC integration with computer, tablet and smartphone using OpenHAB
 tags: fatek plc openhab
+categories: posts
 ---
 
 **OpenHAB** is a open source software for integrating different home automation systems

@@ -3,6 +3,7 @@ layout: post
 title: Maven artifacts pgp keys map
 description: Maven artifacts pgp keys map
 tags: maven central pgp verify signature security
+categories: maven
 ---
 
 According to Maven Central Repository requirements all artifacts deployed to Central Repository

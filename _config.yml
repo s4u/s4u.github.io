@@ -3,10 +3,10 @@ title: Simplify4U
 url: https://www.simplify4u.org
 baseurl: /
 
-permalink: /:title.html
+permalink: /:categories/:title.html
 
 tags_path: tags.html
-paginate: 5
+paginate: 25
 
 markdown: kramdown
 excerpt_separator: "<!-- -->"

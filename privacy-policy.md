@@ -3,7 +3,7 @@ title: Privacy Policy for Simplify4U
 description: Privacy Policy for Simplify4U
 layout: page
 permalink: /:path/:basename:output_ext
-sitemap: true
+sitemap: false
 ---
 
 At Simplyf4U, accessible from <https://www.simplify4u.org/>, one of our main priorities is the privacy of our visitors.
