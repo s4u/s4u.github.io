@@ -52,6 +52,16 @@ Source
 : <https://github.com/s4u/sitemapxml-maven-plugin>
 
 ---
+## Maven settings action
+
+This GitHub Action setup maven environment for use in action by creating customized settings.xml
+
+{:.dl-horizontal}
+Source
+: <https://github.com/s4u/maven-settings-action>
+
+
+---
 More projects on github: <https://github.com/s4u>
 
 All our projects are deployed to **The Central Repository**, under **org.simplify4u** groupId, so you can easily use them.\\
