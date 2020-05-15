@@ -60,6 +60,14 @@ This GitHub Action setup maven environment for use in action by creating customi
 Source
 : <https://github.com/s4u/maven-settings-action>
 
+---
+## SLF4J mock
+
+Library to easy mock request on sl4j-api
+
+{:.dl-horizontal}
+Source
+: <https://github.com/s4u/slf4j-mock>
 
 ---
 More projects on github: <https://github.com/s4u>
