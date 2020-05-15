@@ -8,16 +8,17 @@ layout: default
         </div>
         {{ content }}
 <hr/>
-        {% if page.tags %}<p>Tags:
+        {% if page.tags -%}
+        <p>Tags:
             {% for t in page.tags %}<a class="label label-default" href="{{site.tags_path | relative_url }}#tag-{{t}}">{{t}}</a> {% endfor %}
-        </p>{% endif %}
-    <ul class="pager">
-        {% if page.previous %}
-        <li class="previous"><a href="{{page.previous.url}}"><span class="glyphicon glyphicon-circle-arrow-left"></span> Older</a></li>
-        {% endif %}
-        {% if page.next %}
-        <li class="next"><a href="{{page.next.url}}">Newer <span class="glyphicon glyphicon-circle-arrow-right"></span></a></li>
-        {% endif %}
-    </ul>
+        </p>{%- endif %}
+        <ul class="pager">
+            {% if page.previous -%}
+            <li class="previous"><a href="{{page.previous.url}}"><span class="glyphicon glyphicon-circle-arrow-left"></span> Older</a></li>
+            {%- endif -%}
+            {% if page.next -%}
+            <li class="next"><a href="{{page.next.url}}">Newer <span class="glyphicon glyphicon-circle-arrow-right"></span></a></li>
+            {%- endif %}
+        </ul>
     </div>
 </div>
