@@ -16,3 +16,20 @@ description: Site about tools and hints for DevOps
     </div>
 </div>
 {% endfor %}
+
+{%- if paginator.total_pages > 1 -%}
+<ul class="pager">
+    {% if paginator.previous_page -%}
+    <li class="previous">
+        <a href="{{ paginator.previous_page_path }}"><span class="glyphicon glyphicon-circle-arrow-left"></span> Previous</a>
+    </li>
+    {% endif -%}
+
+    {% if paginator.next_page -%}
+    <li class="next">
+        <a href="{{ paginator.next_page_path }}"> Next <span class="glyphicon glyphicon-circle-arrow-right"></span>
+        </a>
+    </li>
+    {% endif -%}
+</ul>
+{%- endif -%}
