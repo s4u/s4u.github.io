@@ -27,6 +27,20 @@
     <meta name="twitter:title" content="{{title}}">
     <meta name="twitter:description" content="{{page.description}}">
 
+    {% if paginator.previous_page -%}
+    <link rel="prev" href="{{ paginator.previous_page_path | absolute_url }}" />
+    {%- endif %}
+    {% if paginator.next_page -%}
+    <link rel="next" href="{{ paginator.next_page_path | absolute_url }}" />
+    {%- endif %}
+
+    {%- if page.previous -%}
+    <link rel="prev" href="{{ page.previous.url | absolute_url }}" />
+    {%- endif %}
+    {% if page.next -%}
+    <link rel="next" href="{{ page.next.url | absolute_url }}" />
+    {%- endif %}
+
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
 
