@@ -13,7 +13,7 @@ We announce that next version `2.2.0` of maven-settings-action has been released
 `maven-settings-action` - is GitHub Action which help to easy setup `settings.xml`
 for maven projects with many features - like configure server, mirror items.
 
-Full documentation is available on GitHub marketplace: https://github.com/marketplace/actions/maven-setings-action
+Full documentation is available on GitHub marketplace: <https://github.com/marketplace/actions/maven-setings-action>
 
 New features in this release:
  - support for [Oracle Maven Repository](https://docs.oracle.com/middleware/1213/core/MAVEN/config_maven_repo.htm#MAVEN9010)
