@@ -56,7 +56,6 @@
     <!-- custom style -->
     <link rel="stylesheet" href="{{ '/css/main.css' | relative_url }}" >
     <link rel="stylesheet" href="{{ 'css/syntax.css' | relative_url }}">
-    <script src="{{ 'js/g01.js' | relative_url }}"></script>
 
     <link rel="stylesheet" type="text/css"
           href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.css"/>
@@ -72,14 +71,15 @@ window.cookieconsent.initialise({
   "content": { "dismiss": "OK", "href": "{{site.url}}/privacy-policy.html" },
   onStatusChange: function(status) {
       if (this.hasConsented()) {
-        ga('send', 'event', 'cookieconsent', 'OK', window.location.pathname);
+        gtag('event', 'screen_view', {screen_name: 'Cookie Consent OK'});
       }
   },
   onPopupOpen: function() {
-    ga('send', 'event', 'cookieconsent', 'Show', window.location.pathname);
+    gtag('event', 'screen_view', {screen_name: 'Cookie Consent Show'});
   }
 })});
     </script>
+    <script async src="{{ '/gtag.js' | relative_url }}"></script>
 </head>
 
 <body>
@@ -141,5 +141,4 @@ window.cookieconsent.initialise({
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
 <!-- Latest compiled and minified JavaScript -->
 <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
-<script src="{{ '/js/g02.js' | relative_url }}"></script>
 </body>
