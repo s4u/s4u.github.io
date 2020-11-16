@@ -44,6 +44,7 @@ PGP key:
     uids:        [.... (JUnit Development, 2014) <mail@....>]
 ```
 
+For more information you can consult documentation for [show](https://www.simplify4u.org/pgpverify-maven-plugin/show-mojo.html) goal.
  
 Detail release info can be found at github [v1.10.0](https://github.com/s4u/pgpverify-maven-plugin/releases/tag/v1.10.0).
 
