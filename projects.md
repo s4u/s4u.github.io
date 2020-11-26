@@ -66,6 +66,9 @@ Source
 Library to easy mock request on sl4j-api
 
 {:.dl-horizontal}
+Documentation
+: <https://www.simplify4u.org/slf4j-mock>
+
 Source
 : <https://github.com/s4u/slf4j-mock>
 
@@ -75,5 +78,3 @@ More projects on github: <https://github.com/s4u>
 All our projects are deployed to **The Central Repository**, under **org.simplify4u** groupId, so you can easily use them.\\
 Last deployed versions you can found here:
 [org.simplify4u](http://search.maven.org/#search|ga|1|org.simplify4u)
-or under old groupId
-[com.github.s4u](http://search.maven.org/#search|ga|1|com.github.s4u)
