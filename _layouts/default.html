@@ -20,7 +20,7 @@
     <meta property="og:title" content="{{title}}">
     <meta property="og:description" content="{{page.description}}">
     <meta property="og:url" content="{{site.url}}{{page.url}}">
-    <meta property="og:image" content="{{ '/img/logo24.png' | absolute_url }}">
+    <meta property="og:image" content="{{ page.social_logo | default: site.social_logo | absolute_url }}">
 
     <!-- twitter data-->
     <meta name="twitter:card" content="summary" >

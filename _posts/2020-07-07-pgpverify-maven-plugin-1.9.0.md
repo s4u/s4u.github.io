@@ -4,6 +4,7 @@ title: PGPVerify Maven Plugin 1.9.0
 description: PGPVerify Maven Plugin 1.9.0 - release note
 tags: maven pgp verify release-note
 categories: releases-note
+social_logo: /img/logo-social-pgpverify.png
 ---
 
 Next major version `1.9.0` of PGPVerify Maven Plugin was released.

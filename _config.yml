@@ -3,6 +3,8 @@ title: Simplify4U
 url: https://www.simplify4u.org
 baseurl: /
 
+social_logo: /img/logo-social.png
+
 permalink: /:categories/:title.html
 
 tags_path: tags.html
@@ -17,8 +19,7 @@ plugins:
   - jekyll-paginate
 
 defaults:
-  -
-    scope:
+  - scope:
       path: ""
       type: posts
     values:
