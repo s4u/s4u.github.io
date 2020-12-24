@@ -30,4 +30,3 @@ Everybody is welcome to collaborate on making the project the best usable.
 
 
 Detail release info can be found at github [v0.1.0](https://github.com/s4u/sign-maven-plugin/releases/tag/v0.1.0).
-
