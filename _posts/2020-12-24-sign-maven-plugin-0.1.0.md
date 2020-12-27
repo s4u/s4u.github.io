@@ -10,7 +10,10 @@ social_logo: /img/logo-social-sign.png
 We announce that The first version of [sign-maven-plugin](https://www.simplify4u.org/sign-maven-plugin/) has been released.
 
 Sign Maven Plugin allows you to create OpenPGP signatures
-for all of the project’s artifacts without any external software.
+for all of the Maven project’s artifacts without any external software.
+
+It can replace [maven-gpg-plugin](https://maven.apache.org/plugins/maven-gpg-plugin/) 
+to simplifier OpenPGP signatures generation.
 
 <!-- -->
 
