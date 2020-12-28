@@ -8,7 +8,7 @@ social_logo: /img/logo-social.png
 permalink: /:categories/:title.html
 
 tags_path: tags.html
-paginate: 25
+paginate: 10
 
 markdown: kramdown
 excerpt_separator: "<!-- -->"

@@ -6,9 +6,9 @@ group: navl
 permalink: /:path/:basename:output_ext
 sitemap: true
 ---
-## Verify PGP signatures plugin
+## Verify OpenPGP signatures plugin
 
-This maven plugin allow you to automatically verify PGP signature of all project dependency.
+This maven plugin allow you to automatically verify OpenPGP signature of all project dependency.
 
 {:.dl-horizontal}
 Documentation
@@ -18,9 +18,22 @@ Source
 : <https://github.com/s4u/pgpverify-maven-plugin>
 
 ---
-## PGP keys map to maven artifacts
+## Create OpenPGP signatures plugin
 
-This project contains PGP keys map to maven artifacts which should be used to signed
+This maven plugin creates OpenPGP signatures for all of the project's artifacts
+without any external software
+
+{:.dl-horizontal}
+Documentation
+: <https://www.simplify4u.org/sign-maven-plugin>
+
+Source
+: <https://github.com/s4u/sign-maven-plugin>
+
+---
+## OpenPGP keys map to maven artifacts
+
+This project contains OpenPGP keys map to maven artifacts which should be used to signed
 
 {:.dl-horizontal}
 

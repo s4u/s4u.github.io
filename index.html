@@ -3,6 +3,32 @@ layout: default
 sitemap: true
 description: Site about tools and hints for DevOps
 ---
+{% unless paginator.previous_page %}
+<div class="panel panel-default">
+    <div class="panel-body">
+        <div class="page-header"><h1>Our Mission</h1></div>
+        <ul>
+            <li>build valuable software by developers for another developers</li>
+            <li>make development easier by automating common tasks</li>
+            <li>quick response for community</li>
+            <li>quick time from commit to release</li>
+        </ul>
+
+        <div class="page-header"><h1>Contributing</h1></div>
+        <p>All kind of contributing with our projects are welcome.</p>
+        <ul>
+            <li>create issue with request new feature</li>
+            <li>report bugs</li>
+            <li>start discussion about projects</li>
+            <li>do you have idea for new project - let's start discussion</li>
+        </ul>
+
+        <p>If our mission is close to you we welcome to join our team - our dream is build strong developer community around our projects</p>
+        <p>We welcome to common <a href="https://github.com/s4u/parent/discussions">discussions</a>
+            and <a href="https://github.com/s4u">projects</a> </p>
+    </div>
+</div>
+{% endunless -%}
 {% for post in paginator.posts %}
 <div class="panel panel-default">
     <div class="panel-body">
