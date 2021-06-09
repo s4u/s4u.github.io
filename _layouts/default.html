@@ -23,9 +23,7 @@
     <meta property="og:image" content="{{ page.social_logo | default: site.social_logo | absolute_url }}">
 
     <!-- twitter data-->
-    <meta name="twitter:card" content="summary" >
-    <meta name="twitter:title" content="{{title}}">
-    <meta name="twitter:description" content="{{page.description}}">
+    <meta name="twitter:card" content="summary_large_image" >
 
     {% if paginator.previous_page -%}
     <link rel="prev" href="{{ paginator.previous_page_path | absolute_url }}" />
