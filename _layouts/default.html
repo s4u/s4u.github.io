@@ -78,6 +78,7 @@ window.cookieconsent.initialise({
 })});
     </script>
     <script async src="{{ '/common.js' | relative_url }}"></script>
+    <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 </head>
 
 <body>
@@ -118,7 +119,10 @@ window.cookieconsent.initialise({
 
 <div class="container">
 {{ content }}
-{% if page.description %}<div class="fb-like" data-layout="button_count" data-action="like" data-size="small" data-share="true"></div>{% endif %}
+{% if page.description %}
+        <div style="vertical-align: top !important;" class="fb-like" data-layout="button_count" data-action="like" data-size="small" data-share="true"></div>
+        <a style="vertical-align: top !important;" href="https://twitter.com/Simplify4U" class="twitter-follow-button" data-lang="en" data-show-count="false">Follow @Simplify4U</a>
+{% endif %}
 </div>
 
 <div id="footer">
