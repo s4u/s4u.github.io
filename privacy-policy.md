@@ -64,6 +64,7 @@ of certain options. You may find a complete list of these Privacy Policies and t
  - [How Google uses information from other sites or apps](https://policies.google.com/technologies/partner-sites)
  - [Google Privacy Policy](https://policies.google.com/privacy)
  - [Facebook policy](https://www.facebook.com/full_data_use_policy)
+ - [Twitter Privacy Policy](https://twitter.com/en/privacy)
 
 ## Children's Information
 
